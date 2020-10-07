@@ -1,15 +1,21 @@
 const orm = require("../config/orm.js");
 
-var burger = {
-    selectAll: function(cb) {
-        orm.selectAll()
-    },
-    insertOne: function() {
-        orm.insertOne()
-    },
-    updateOne: function() {
-        orm.updateOne()
-    }
+class Burger {
+    constructor() {
+
+    };
+
+    getAll() {
+        orm.selectAll();
+    };
+
+    createNew() {
+        orm.insertOne();
+    };
+
+    update() {
+        orm.updateOne();
+    };
 };
 
-modules.export = burger;
+modules.export = Burger;
