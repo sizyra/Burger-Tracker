@@ -1,3 +1,3 @@
-INSERT INTO burgers (burger_name, devoured) VALUES ("baconator", false);
-INSERT INTO burgers (burger_name, devoured) VALUES ("double_baconator", false);
-INSERT INTO burgers (burger_name, devoured) VALUES ("cheeseburger", false);
+INSERT INTO burgers (burger_name) VALUES ("baconator");
+INSERT INTO burgers (burger_name) VALUES ("double_baconator");
+INSERT INTO burgers (burger_name) VALUES ("cheeseburger");
